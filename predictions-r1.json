@@ -1,0 +1,18 @@
+{
+ "declared_before_any_scored_run": true,
+ "predictions": [
+  {"id": "P1", "measure": "M1 Criteo visit, share of variance removed by adjustment A", "default": "raw difference in means; no pre-period metric exists so practitioners skip adjustment", "expected": "between 10% and 40%", "opposite": "under 5%"},
+  {"id": "P2", "measure": "M1 Criteo visit, adjustment B minus adjustment A (points of variance removed)", "expected": "B removes at least 3 points more than A", "opposite": "B removes no more than A"},
+  {"id": "P3", "measure": "M1 MineThatData spend, share of variance removed by pre-period spend alone", "default": "classic CUPED on the pre-period metric is enough", "expected": "under 5%", "opposite": "10% or more"},
+  {"id": "P4", "measure": "M2 ASOS, share of naive-peek calls the final test does not support", "default": "check daily and ship at the first p<0.05", "expected": "between 25% and 50%", "opposite": "under 10%"},
+  {"id": "P5", "measure": "M2 ASOS, share of mSPRT calls the final test does not support", "expected": "10% or less", "opposite": "as high as the naive peek's"},
+  {"id": "P6", "measure": "M2 ASOS, share of final-sample significant results the mSPRT reaches", "expected": "between 50% and 85%", "opposite": "under 30%"},
+  {"id": "P7", "measure": "M3 Criteo visit A/A, false-positive rate of the naive daily peek over 14 looks", "expected": "between 15% and 25%", "opposite": "8% or less"},
+  {"id": "P8", "measure": "M3 Criteo visit A/A, false-positive rate of the mSPRT", "expected": "5% or less", "opposite": "above 8%"},
+  {"id": "P9", "measure": "M4 retail revenue per order A/A, false-positive rate of the order-level t-test", "default": "treat each order as independent", "expected": "between 10% and 30%", "opposite": "7% or less"},
+  {"id": "P10", "measure": "M4 retail revenue per order A/A, false-positive rate of the delta method", "expected": "between 3% and 7%", "opposite": "above 8%"},
+  {"id": "P11", "measure": "M5 Criteo visit, share of naive-flagged segments that replicate", "default": "slice after the test and report segments with p<0.05", "expected": "50% or less", "opposite": "80% or more"},
+  {"id": "P12", "measure": "M5 Criteo visit, share of Holm-flagged segments that replicate", "expected": "80% or more", "opposite": "no higher than the naive rule's"},
+  {"id": "P13", "measure": "SRM pre-checks", "expected": "Criteo and MineThatData pass; at least one ASOS pair flagged", "opposite": "no ASOS pair flagged"}
+ ]
+}

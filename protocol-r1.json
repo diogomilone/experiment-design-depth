@@ -1,0 +1,17 @@
+{
+ "study": "experiment-design-depth",
+ "round": "r1",
+ "alpha": 0.05,
+ "power": 0.8,
+ "seed": 20261111,
+ "M1_variance_reduction": {
+  "criteo": {"outcomes": ["visit", "conversion"], "adjust_A": "linear in f0..f11, separate slopes per arm", "adjust_B": "cross-fitted (2 folds by rid parity) additive model of f0..f11 cut at 20 quantile bins each, prediction used as one covariate", "mde_relative": 0.05, "allocation_for_n": 0.5},
+  "hillstrom": {"arms": ["Womens E-Mail", "No E-Mail"], "outcomes": ["visit", "spend"], "adjust_A": ["history"], "adjust_B": ["recency", "history", "mens", "womens", "newbie", "channel", "zip_code"]}
+ },
+ "M2_peeking": {"data": "asos", "looks": "integer days only", "naive": "first two-sided Welch z p<0.05", "msprt": {"stop": "Lambda>=20", "tau_sd_multiple": 0.01, "sensitivity": [0.003, 0.03]}, "reference": "two-sided z at last snapshot p<0.05", "unsupported": "final p>=0.05 or opposite sign", "drop": "zero variance in either arm at last snapshot"},
+ "M3_aa_replay": {"data": "criteo", "days": 14, "replications": 2000, "assignment": "Bernoulli(1/2) per user, exact via binomial + hypergeometric per day", "metrics": ["visit", "conversion"], "rules": ["naive daily peek", "fixed horizon day 14", "msprt tau 0.01 sd"], "secondary": {"data": "retail", "window": ["2011-10-03", "2011-10-30"], "days": 28, "metric": "revenue per customer", "replications": 2000}},
+ "M4_ratio": {"data": "retail", "window": ["2011-10-03", "2011-10-30"], "sensitivity_window": ["2011-08-08", "2011-10-30"], "drop": ["customer_id null", "invoice starts with C"], "metrics": ["revenue per order", "units per order"], "replications": 2000, "naive": "Welch t on order-level values", "delta": "delta method on customer sums", "check": "criteo conversion per visit: naive and delta SE equal"},
+ "M5_segments": {"data": "criteo", "outcome": "visit", "cuts": [0.2, 0.4, 0.6, 0.8], "slices": 28, "rules": ["naive p<0.05", "Holm 0.05", "BH 0.05"], "replicate": "same sign and p<0.05 on the other 27 slices"},
+ "srm": {"flag_p": 0.001, "criteo_expected_share": 0.85, "hillstrom": "equal thirds", "asos": "1:1 at last snapshot"},
+ "headline_rule": "largest calls changed per 100 decisions among M2, M4, M5; M1 reported as sample saved; M3 excluded (size set by number of looks)"
+}

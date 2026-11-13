@@ -1,0 +1,73 @@
+{
+ "bar_p": 0.0008684598407633108,
+ "bar_z": 3.33,
+ "by_metric": {
+  "1": {
+   "calls": 19,
+   "final_reached": 17,
+   "share": 0.10526315789473684,
+   "unsupported": 2
+  },
+  "2": {
+   "calls": 34,
+   "final_reached": 16,
+   "share": 0.5294117647058824,
+   "unsupported": 18
+  },
+  "3": {
+   "calls": 20,
+   "final_reached": 15,
+   "share": 0.25,
+   "unsupported": 5
+  },
+  "4": {
+   "calls": 17,
+   "final_reached": 14,
+   "share": 0.17647058823529413,
+   "unsupported": 3
+  }
+ },
+ "matched": {
+  "calls": 90,
+  "final_reached": 62,
+  "share": 0.3111111111111111,
+  "unsupported": 28
+ },
+ "msprt": {
+  "calls": 91,
+  "final_reached": 64,
+  "share": 0.2967032967032967,
+  "unsupported": 27
+ },
+ "naive_check": {
+  "calls": 219,
+  "final_reached": 102,
+  "share": 0.5342465753424658,
+  "unsupported": 117
+ },
+ "predictions": {
+  "Q1": true,
+  "Q2": false
+ },
+ "share_ci": {
+  "difference": [
+   0.014407814407814412,
+   -0.021229746871936846,
+   0.05677190827190823
+  ],
+  "experiments": 78,
+  "matched": [
+   0.3111111111111111,
+   0.1792452830188679,
+   0.4643452380952378
+  ],
+  "msprt": [
+   0.2967032967032967,
+   0.17073170731707318,
+   0.44716284074605395
+  ],
+  "resamples": 2000,
+  "seed": 20261111
+ },
+ "target_calls": 91
+}

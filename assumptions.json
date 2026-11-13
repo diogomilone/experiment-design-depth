@@ -1,0 +1,31 @@
+{
+ "note": "Assumed values behind the page's 'What it is worth' section. None comes from the data; every money figure moves with them. The count is tests a team reads in a year. The share of early calls that are ships is an explicit assumption, because the metrics are unnamed and a call can be a ship or a stop; it has a range, swept with the cost range. The result is a gross cost scenario that counts every unconfirmed ship as a wrong ship and leaves out the cost of waiting. The team effort is given per role, matching the four-week plan.",
+ "tests_per_year": {
+  "value": 100,
+  "label": "assumed: tests a team reads in a year, one primary metric each"
+ },
+ "ship_share": {
+  "value": 0.5,
+  "low": 0.25,
+  "high": 0.75,
+  "label": "assumed: share of early calls that would be ships rather than stops (the records do not say which direction is good)"
+ },
+ "cost_wrong_ship_usd": {
+  "value": 25000,
+  "low": 5000,
+  "high": 100000,
+  "label": "assumed: cost of shipping a change the full data do not support (building and maintaining it, the test slot it took, backing it out)"
+ },
+ "test_weeks": {
+  "value": 4,
+  "label": "assumed: planned length of a typical test, for the time the adjustment saves"
+ },
+ "engineer_weeks": {
+  "value": 1,
+  "label": "assumed: data engineer time to add the three daily checks (week two of the plan)"
+ },
+ "analyst_weeks": {
+  "value": 3,
+  "label": "assumed: analyst time for the test plan (week one) and the two replays (weeks three and four)"
+ }
+}

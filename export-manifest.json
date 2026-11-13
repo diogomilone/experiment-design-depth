@@ -1,0 +1,286 @@
+{
+ "version": 1,
+ "project": "experiment-design-depth",
+ "files": [
+  {
+   "path": "DESIGN-r1.md",
+   "bytes": 6006,
+   "sha256": "64e8057871fbb6d980c759813a312d8ce528c8e95b432d64b14630ccc434c5cc"
+  },
+  {
+   "path": "README.md",
+   "bytes": 6098,
+   "sha256": "8284027df3040ca0957993da811a827f9af9dc4b65a64a4dc6b1afc72c29228a"
+  },
+  {
+   "path": "assumptions.json",
+   "bytes": 1491,
+   "sha256": "8dec9a90d5a19d118a74e1a18fb3d9840ee2a89a0afaaae9314e52dec767d6d6"
+  },
+  {
+   "path": "design-choices.html",
+   "bytes": 18534,
+   "sha256": "ecca393304552e5f1913baa4e73ebe08439f36c61412af493bd40b5d88d3897b"
+  },
+  {
+   "path": "index.html",
+   "bytes": 15947,
+   "sha256": "02ec272cdb73126fd05d895e0c17e5d1c85dddba901da4f04a297831b0bf7ab0"
+  },
+  {
+   "path": "method.html",
+   "bytes": 18586,
+   "sha256": "ccdb407a04fca616961489ad17a30752f2baac93b2a9238e4e71314c42164dce"
+  },
+  {
+   "path": "peeking.html",
+   "bytes": 31735,
+   "sha256": "0efd1da416842ef76cb9524a995adae0be6306ef7facf3cf5b46b74ddbadef12"
+  },
+  {
+   "path": "predictions-r1.json",
+   "bytes": 2491,
+   "sha256": "110a3187de138e19d3e1907f089ee55ddabc12639d266e729117123d0470ff7a"
+  },
+  {
+   "path": "protocol-r1.json",
+   "bytes": 2281,
+   "sha256": "cbcf1622b4b29574dd4f8a39e96d28dc30fd10801b5513fb8a159c5cc343262a"
+  },
+  {
+   "path": "results/balance.json",
+   "bytes": 1474,
+   "sha256": "069b467ef60ce16ff9efd5161c235fcfe8b0d5cf3ae384e08671032477d265e8"
+  },
+  {
+   "path": "results/look1-check.json",
+   "bytes": 323,
+   "sha256": "a6f1ca8bbf1c4841c135415841ed1687085ab6a80204fbe9f67cf3433f36e2d5"
+  },
+  {
+   "path": "results/m1.json",
+   "bytes": 1992,
+   "sha256": "a792b810bb0ad74c2e4600ccba203bf11de775abb38aa983a125af363401499a"
+  },
+  {
+   "path": "results/m2.json",
+   "bytes": 156268,
+   "sha256": "eeea9d094fefac724142842bc85330e434ab55b06b67a7ad5edab02053e90b18"
+  },
+  {
+   "path": "results/m2_matched.json",
+   "bytes": 1233,
+   "sha256": "636b6ae0619f9af53ec87100790eac41c701e962aca9984c695e6e51ef8d1a4e"
+  },
+  {
+   "path": "results/m3.json",
+   "bytes": 2705,
+   "sha256": "60fbfae5294a34b4b639a790e86df9267c03d76d45f6de14c94427b6ae78557d"
+  },
+  {
+   "path": "results/m4.json",
+   "bytes": 2378,
+   "sha256": "1088d03f462f38d49442e3ef28702402bed85eb0140cd0ca728e2ab99b43fc58"
+  },
+  {
+   "path": "results/m5.json",
+   "bytes": 13073,
+   "sha256": "9f50aeaa3e364739b42a35b88c9ea0551313c81c0ed6f657d84e344e64b5c1c0"
+  },
+  {
+   "path": "results/r1-summary.json",
+   "bytes": 17557,
+   "sha256": "2788068a275e24c22f6adf0b048ce8274661fd514f0a7b0cb98c96c658b59ae5"
+  },
+  {
+   "path": "results/r3-m2.json",
+   "bytes": 144307,
+   "sha256": "ff0e55ce05106bcc5dcdb1827bc00f691d6ce99d54d951be2b93f088f75f8b0f"
+  },
+  {
+   "path": "results/r3-summary.json",
+   "bytes": 19817,
+   "sha256": "b397785d7a79b1807c88e194d7f72acf93a9941003a474a158c7f725ef609ffa"
+  },
+  {
+   "path": "results/readout.json",
+   "bytes": 281,
+   "sha256": "433de35c4cd194d02d8e4d75fe0362b151e9d027d7fd9b961553526c20439612"
+  },
+  {
+   "path": "results/srm.json",
+   "bytes": 17106,
+   "sha256": "be929824a6b5fc4d520b804ea4326a0e061a83707ff3b690bfaa1e15816dceab"
+  },
+  {
+   "path": "results/summary.json",
+   "bytes": 19824,
+   "sha256": "6256e5fb795d72230a1ca25b0c83d177ce21d955c0b7a749074cf0739484848b"
+  },
+  {
+   "path": "site/page.css",
+   "bytes": 3748,
+   "sha256": "6acd00efa4a5aea1e864d71334b0ccde8ea31c24012439d2526a48c4a8fcabb4"
+  },
+  {
+   "path": "site/render.py",
+   "bytes": 72088,
+   "sha256": "f07907b8283196a42283b182e081b28dfbd9717471817d7d2269e990231a4851"
+  },
+  {
+   "path": "tests/test_stats.py",
+   "bytes": 5270,
+   "sha256": "3118e3f915f0720f31361c814dbe36a04f44cfea272b5842b3ef763252e672cc"
+  },
+  {
+   "path": "tools/balance.py",
+   "bytes": 1803,
+   "sha256": "6ccdb80ec7205e85efec4f47c656eee34fb11286b3d723e2f84d7ef40ea19f89"
+  },
+  {
+   "path": "tools/look1_check.py",
+   "bytes": 1480,
+   "sha256": "d273ec64d45cac54922ca9e47ed354740d0fbf78d4701e438e48f62b0c4fafc7"
+  },
+  {
+   "path": "tools/matched_bar.py",
+   "bytes": 5496,
+   "sha256": "ab3f15e86feaabf34a0e5a5bb6d00adbced3caf76838fe818e5eb34b3ff341e9"
+  },
+  {
+   "path": "tools/prepare.py",
+   "bytes": 3333,
+   "sha256": "f96cbb1f920aa9430f5834ae31a0ad555d430dde70e3fa0c0630a6de2b498658"
+  },
+  {
+   "path": "tools/run_study.py",
+   "bytes": 26061,
+   "sha256": "64a14cda852f6667b6308c2f090f9f010b03e462382281b5722f2d6456cb5614"
+  },
+  {
+   "path": "tools/stats.py",
+   "bytes": 5368,
+   "sha256": "759cad708537d2dbdda6c6ef30cc7601e3d9b6a0d88f721fbc243bc0dedc0913"
+  },
+  {
+   "path": "tools/summarize.py",
+   "bytes": 12317,
+   "sha256": "ee7f9388d3b3488d719084a4e10121a7547eeefb219a12b5f19e57b4f47e498d"
+  },
+  {
+   "path": "tools/vendor_kit.py",
+   "bytes": 2663,
+   "sha256": "2525d76db0213efa091f3e660114d2a076d4b42fce876c04bba31231142f9d53"
+  },
+  {
+   "path": "vendor/viz-design-system-adoption.json",
+   "bytes": 5255,
+   "sha256": "1a144f20cb23802cc8b5b02166aed19098e6f4f80ac9de012d9afc05c30df66b"
+  },
+  {
+   "path": "vendor/viz-design-system/LICENSE",
+   "bytes": 1084,
+   "sha256": "d75d60dfcc5aeaf4eccdf3a42cea663942be0a2296e2f473134540d110c593f9"
+  },
+  {
+   "path": "vendor/viz-design-system/THIRD_PARTY_NOTICES.md",
+   "bytes": 4706,
+   "sha256": "e8ab272c7785fd02e0398e4fc7db4b9dd436f6e3d6595a4b07ad56f423755bbd"
+  },
+  {
+   "path": "vendor/viz-design-system/assets/fonts/ibm-plex-mono-latin-400-normal.woff2",
+   "bytes": 14708,
+   "sha256": "08949f728dc52d528e69b1667d15c89a5686a4ee9a296ff90983985f99c380f7"
+  },
+  {
+   "path": "vendor/viz-design-system/assets/fonts/ibm-plex-mono-latin-500-normal.woff2",
+   "bytes": 14888,
+   "sha256": "01d285447409c8a588692162439a038b8cbd7871309ee20267b0d2d91c6e8e22"
+  },
+  {
+   "path": "vendor/viz-design-system/assets/fonts/ibm-plex-mono.LICENSE.txt",
+   "bytes": 5299,
+   "sha256": "23b0a9d0c6d3f140a0b77e483c5cfa6bba574325ef5cb189ed9f2fec4884533f"
+  },
+  {
+   "path": "vendor/viz-design-system/assets/fonts/manifest.json",
+   "bytes": 3704,
+   "sha256": "8ea8fde164430c15c2aa2d7cbf0d44e6a70eb93850fa8c786772c56cadfcc236"
+  },
+  {
+   "path": "vendor/viz-design-system/assets/fonts/newsreader-latin-500-normal.woff2",
+   "bytes": 23624,
+   "sha256": "5613e2fc8377392c02e8ac9d55014689fb5320a5f2a7be55e8088a314728ac2c"
+  },
+  {
+   "path": "vendor/viz-design-system/assets/fonts/newsreader-latin-600-normal.woff2",
+   "bytes": 23876,
+   "sha256": "05c91a26d19a61eafe7ce8e0b77eff3fd279ce994dc89f432f4cd06784935e84"
+  },
+  {
+   "path": "vendor/viz-design-system/assets/fonts/newsreader.LICENSE.txt",
+   "bytes": 4520,
+   "sha256": "26028ec4e13b650065fa525a09532176f8a668b76ff849ea01c564a7480f91e7"
+  },
+  {
+   "path": "vendor/viz-design-system/assets/fonts/public-sans-latin-400-normal.woff2",
+   "bytes": 14632,
+   "sha256": "36274b5787b4f03b27e65ae971d6c808a96838ccd60c9dabaee154889b6bba82"
+  },
+  {
+   "path": "vendor/viz-design-system/assets/fonts/public-sans-latin-600-normal.woff2",
+   "bytes": 14592,
+   "sha256": "c7842f97346df1b3b470e9d71acde90f132dd858508ec5ae6606401e5d0938f7"
+  },
+  {
+   "path": "vendor/viz-design-system/assets/fonts/public-sans.LICENSE.txt",
+   "bytes": 4503,
+   "sha256": "705a497c781f6463ff819abb513bb495f3fb05256f1d20321e3275813c0bafa5"
+  },
+  {
+   "path": "vendor/viz-design-system/kit/kit.css",
+   "bytes": 16959,
+   "sha256": "df88c5ca8435bea6d5b35b7bbbdab4e1ae785c585d67924a8486a477ff18937f"
+  },
+  {
+   "path": "vendor/viz-design-system/kit/kit.js",
+   "bytes": 2643,
+   "sha256": "47ea71f6b331457a9ab2edaab1b5ce326e18b8fa608e1f3e0518988eb10642fe"
+  },
+  {
+   "path": "vendor/viz-design-system/kit/numfmt.py",
+   "bytes": 6311,
+   "sha256": "3235d3efdd0c070acabcb064efeb47f61d22c2af771d779bd6482986582faed1"
+  },
+  {
+   "path": "vendor/viz-design-system/kit/takeaway.css",
+   "bytes": 9685,
+   "sha256": "2174051b402ffb5f4666348c5f527abdc5522fbf73f884c0169799f243c1f6aa"
+  },
+  {
+   "path": "vendor/viz-design-system/kit/takeaway.js",
+   "bytes": 2063,
+   "sha256": "fa71645b9caf14b5cc8be1dfc383fbcb2497ff092551eec6dc38e28e7c02d786"
+  },
+  {
+   "path": "vendor/viz-design-system/kit/wayfinding.css",
+   "bytes": 3573,
+   "sha256": "d522d6d9816ab11c91937513d881520763702383fdf6b6c938721e3c1974591f"
+  },
+  {
+   "path": "vendor/viz-design-system/kit/wayfinding.js",
+   "bytes": 9881,
+   "sha256": "e8e612f82b81e2a1a312c9726561f98863af7ac3614bfab8d04aa4e2593bfa4e"
+  },
+  {
+   "path": "vendor/viz-design-system/tokens.css",
+   "bytes": 6300,
+   "sha256": "890c079f7c1d2b96ca5f9446cfa4eefb47791e865546a80124850f7589a0132b"
+  },
+  {
+   "path": "vendor/viz-design-system/tokens.json",
+   "bytes": 4492,
+   "sha256": "efdf4cac151ba7788158afd2934552f4d602ec77788681fcbf1f235226cc3e75"
+  }
+ ]
+}

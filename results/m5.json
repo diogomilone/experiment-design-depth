@@ -1,0 +1,810 @@
+{
+ "bh": {
+  "flagged": 593,
+  "flagged_per_slice": 21.178571428571427,
+  "replicated": 593,
+  "share_replicated": 1.0
+ },
+ "holm": {
+  "flagged": 544,
+  "flagged_per_slice": 19.428571428571427,
+  "replicated": 544,
+  "share_replicated": 1.0
+ },
+ "naive": {
+  "flagged": 604,
+  "flagged_per_slice": 21.571428571428573,
+  "replicated": 603,
+  "share_replicated": 0.9983443708609272
+ },
+ "rows": [
+  {
+   "bh": {
+    "flagged": 21,
+    "replicated": 21
+   },
+   "holdout_sig_any": 24,
+   "holm": {
+    "flagged": 19,
+    "replicated": 19
+   },
+   "naive": {
+    "flagged": 22,
+    "replicated": 22
+   },
+   "segments": 24,
+   "slice": 0,
+   "users": 500653
+  },
+  {
+   "bh": {
+    "flagged": 22,
+    "replicated": 22
+   },
+   "holdout_sig_any": 24,
+   "holm": {
+    "flagged": 19,
+    "replicated": 19
+   },
+   "naive": {
+    "flagged": 22,
+    "replicated": 22
+   },
+   "segments": 24,
+   "slice": 1,
+   "users": 499039
+  },
+  {
+   "bh": {
+    "flagged": 22,
+    "replicated": 22
+   },
+   "holdout_sig_any": 24,
+   "holm": {
+    "flagged": 20,
+    "replicated": 20
+   },
+   "naive": {
+    "flagged": 23,
+    "replicated": 23
+   },
+   "segments": 24,
+   "slice": 2,
+   "users": 498951
+  },
+  {
+   "bh": {
+    "flagged": 21,
+    "replicated": 21
+   },
+   "holdout_sig_any": 24,
+   "holm": {
+    "flagged": 18,
+    "replicated": 18
+   },
+   "naive": {
+    "flagged": 22,
+    "replicated": 21
+   },
+   "segments": 24,
+   "slice": 3,
+   "users": 499068
+  },
+  {
+   "bh": {
+    "flagged": 23,
+    "replicated": 23
+   },
+   "holdout_sig_any": 24,
+   "holm": {
+    "flagged": 20,
+    "replicated": 20
+   },
+   "naive": {
+    "flagged": 23,
+    "replicated": 23
+   },
+   "segments": 24,
+   "slice": 4,
+   "users": 500132
+  },
+  {
+   "bh": {
+    "flagged": 20,
+    "replicated": 20
+   },
+   "holdout_sig_any": 24,
+   "holm": {
+    "flagged": 18,
+    "replicated": 18
+   },
+   "naive": {
+    "flagged": 20,
+    "replicated": 20
+   },
+   "segments": 24,
+   "slice": 5,
+   "users": 499652
+  },
+  {
+   "bh": {
+    "flagged": 21,
+    "replicated": 21
+   },
+   "holdout_sig_any": 24,
+   "holm": {
+    "flagged": 21,
+    "replicated": 21
+   },
+   "naive": {
+    "flagged": 21,
+    "replicated": 21
+   },
+   "segments": 24,
+   "slice": 6,
+   "users": 498177
+  },
+  {
+   "bh": {
+    "flagged": 22,
+    "replicated": 22
+   },
+   "holdout_sig_any": 24,
+   "holm": {
+    "flagged": 21,
+    "replicated": 21
+   },
+   "naive": {
+    "flagged": 22,
+    "replicated": 22
+   },
+   "segments": 24,
+   "slice": 7,
+   "users": 498852
+  },
+  {
+   "bh": {
+    "flagged": 23,
+    "replicated": 23
+   },
+   "holdout_sig_any": 24,
+   "holm": {
+    "flagged": 23,
+    "replicated": 23
+   },
+   "naive": {
+    "flagged": 23,
+    "replicated": 23
+   },
+   "segments": 24,
+   "slice": 8,
+   "users": 500556
+  },
+  {
+   "bh": {
+    "flagged": 20,
+    "replicated": 20
+   },
+   "holdout_sig_any": 24,
+   "holm": {
+    "flagged": 18,
+    "replicated": 18
+   },
+   "naive": {
+    "flagged": 22,
+    "replicated": 22
+   },
+   "segments": 24,
+   "slice": 9,
+   "users": 498688
+  },
+  {
+   "bh": {
+    "flagged": 20,
+    "replicated": 20
+   },
+   "holdout_sig_any": 24,
+   "holm": {
+    "flagged": 19,
+    "replicated": 19
+   },
+   "naive": {
+    "flagged": 22,
+    "replicated": 22
+   },
+   "segments": 24,
+   "slice": 10,
+   "users": 498816
+  },
+  {
+   "bh": {
+    "flagged": 21,
+    "replicated": 21
+   },
+   "holdout_sig_any": 24,
+   "holm": {
+    "flagged": 18,
+    "replicated": 18
+   },
+   "naive": {
+    "flagged": 21,
+    "replicated": 21
+   },
+   "segments": 24,
+   "slice": 11,
+   "users": 499486
+  },
+  {
+   "bh": {
+    "flagged": 20,
+    "replicated": 20
+   },
+   "holdout_sig_any": 24,
+   "holm": {
+    "flagged": 17,
+    "replicated": 17
+   },
+   "naive": {
+    "flagged": 20,
+    "replicated": 20
+   },
+   "segments": 24,
+   "slice": 12,
+   "users": 500058
+  },
+  {
+   "bh": {
+    "flagged": 20,
+    "replicated": 20
+   },
+   "holdout_sig_any": 24,
+   "holm": {
+    "flagged": 18,
+    "replicated": 18
+   },
+   "naive": {
+    "flagged": 20,
+    "replicated": 20
+   },
+   "segments": 24,
+   "slice": 13,
+   "users": 499794
+  },
+  {
+   "bh": {
+    "flagged": 22,
+    "replicated": 22
+   },
+   "holdout_sig_any": 24,
+   "holm": {
+    "flagged": 22,
+    "replicated": 22
+   },
+   "naive": {
+    "flagged": 22,
+    "replicated": 22
+   },
+   "segments": 24,
+   "slice": 14,
+   "users": 499003
+  },
+  {
+   "bh": {
+    "flagged": 20,
+    "replicated": 20
+   },
+   "holdout_sig_any": 24,
+   "holm": {
+    "flagged": 19,
+    "replicated": 19
+   },
+   "naive": {
+    "flagged": 20,
+    "replicated": 20
+   },
+   "segments": 24,
+   "slice": 15,
+   "users": 498232
+  },
+  {
+   "bh": {
+    "flagged": 21,
+    "replicated": 21
+   },
+   "holdout_sig_any": 24,
+   "holm": {
+    "flagged": 21,
+    "replicated": 21
+   },
+   "naive": {
+    "flagged": 22,
+    "replicated": 22
+   },
+   "segments": 24,
+   "slice": 16,
+   "users": 499378
+  },
+  {
+   "bh": {
+    "flagged": 21,
+    "replicated": 21
+   },
+   "holdout_sig_any": 24,
+   "holm": {
+    "flagged": 18,
+    "replicated": 18
+   },
+   "naive": {
+    "flagged": 21,
+    "replicated": 21
+   },
+   "segments": 24,
+   "slice": 17,
+   "users": 499144
+  },
+  {
+   "bh": {
+    "flagged": 22,
+    "replicated": 22
+   },
+   "holdout_sig_any": 24,
+   "holm": {
+    "flagged": 21,
+    "replicated": 21
+   },
+   "naive": {
+    "flagged": 22,
+    "replicated": 22
+   },
+   "segments": 24,
+   "slice": 18,
+   "users": 498222
+  },
+  {
+   "bh": {
+    "flagged": 22,
+    "replicated": 22
+   },
+   "holdout_sig_any": 24,
+   "holm": {
+    "flagged": 20,
+    "replicated": 20
+   },
+   "naive": {
+    "flagged": 22,
+    "replicated": 22
+   },
+   "segments": 24,
+   "slice": 19,
+   "users": 499644
+  },
+  {
+   "bh": {
+    "flagged": 22,
+    "replicated": 22
+   },
+   "holdout_sig_any": 24,
+   "holm": {
+    "flagged": 21,
+    "replicated": 21
+   },
+   "naive": {
+    "flagged": 22,
+    "replicated": 22
+   },
+   "segments": 24,
+   "slice": 20,
+   "users": 499370
+  },
+  {
+   "bh": {
+    "flagged": 24,
+    "replicated": 24
+   },
+   "holdout_sig_any": 24,
+   "holm": {
+    "flagged": 20,
+    "replicated": 20
+   },
+   "naive": {
+    "flagged": 24,
+    "replicated": 24
+   },
+   "segments": 24,
+   "slice": 21,
+   "users": 499617
+  },
+  {
+   "bh": {
+    "flagged": 20,
+    "replicated": 20
+   },
+   "holdout_sig_any": 24,
+   "holm": {
+    "flagged": 18,
+    "replicated": 18
+   },
+   "naive": {
+    "flagged": 22,
+    "replicated": 22
+   },
+   "segments": 24,
+   "slice": 22,
+   "users": 499990
+  },
+  {
+   "bh": {
+    "flagged": 20,
+    "replicated": 20
+   },
+   "holdout_sig_any": 24,
+   "holm": {
+    "flagged": 20,
+    "replicated": 20
+   },
+   "naive": {
+    "flagged": 20,
+    "replicated": 20
+   },
+   "segments": 24,
+   "slice": 23,
+   "users": 499647
+  },
+  {
+   "bh": {
+    "flagged": 22,
+    "replicated": 22
+   },
+   "holdout_sig_any": 24,
+   "holm": {
+    "flagged": 19,
+    "replicated": 19
+   },
+   "naive": {
+    "flagged": 22,
+    "replicated": 22
+   },
+   "segments": 24,
+   "slice": 24,
+   "users": 499619
+  },
+  {
+   "bh": {
+    "flagged": 23,
+    "replicated": 23
+   },
+   "holdout_sig_any": 24,
+   "holm": {
+    "flagged": 18,
+    "replicated": 18
+   },
+   "naive": {
+    "flagged": 23,
+    "replicated": 23
+   },
+   "segments": 24,
+   "slice": 25,
+   "users": 499085
+  },
+  {
+   "bh": {
+    "flagged": 19,
+    "replicated": 19
+   },
+   "holdout_sig_any": 24,
+   "holm": {
+    "flagged": 19,
+    "replicated": 19
+   },
+   "naive": {
+    "flagged": 19,
+    "replicated": 19
+   },
+   "segments": 24,
+   "slice": 26,
+   "users": 498159
+  },
+  {
+   "bh": {
+    "flagged": 19,
+    "replicated": 19
+   },
+   "holdout_sig_any": 24,
+   "holm": {
+    "flagged": 19,
+    "replicated": 19
+   },
+   "naive": {
+    "flagged": 20,
+    "replicated": 20
+   },
+   "segments": 24,
+   "slice": 27,
+   "users": 498560
+  }
+ ],
+ "segments_defined": 35,
+ "slices": 28,
+ "whole": [
+  {
+   "bin": 0,
+   "effect": NaN,
+   "feature": "f0",
+   "rest": 0.010342403129198284,
+   "users": 0.0,
+   "z": NaN
+  },
+  {
+   "bin": 1,
+   "effect": 0.01966745312998544,
+   "feature": "f0",
+   "rest": 0.003793216912236882,
+   "users": 5591837.0,
+   "z": 48.194551037737426
+  },
+  {
+   "bin": 2,
+   "effect": 0.008593092380746924,
+   "feature": "f0",
+   "rest": 0.010781161294502954,
+   "users": 2795916.0,
+   "z": -6.209314661086859
+  },
+  {
+   "bin": 3,
+   "effect": 0.002052963676824931,
+   "feature": "f0",
+   "rest": 0.012344653316855227,
+   "users": 2795920.0,
+   "z": -37.67094300319796
+  },
+  {
+   "bin": 4,
+   "effect": 0.0005483576444583489,
+   "feature": "f0",
+   "rest": 0.012677552014113906,
+   "users": 2795919.0,
+   "z": -47.40874576657524
+  },
+  {
+   "bin": 0,
+   "effect": NaN,
+   "feature": "f1",
+   "rest": 0.010342403129198284,
+   "users": 0.0,
+   "z": NaN
+  },
+  {
+   "bin": 1,
+   "effect": 0.010342403129198284,
+   "feature": "f1",
+   "rest": NaN,
+   "users": 13979592.0,
+   "z": NaN
+  },
+  {
+   "bin": 0,
+   "effect": NaN,
+   "feature": "f2",
+   "rest": 0.010342403129198284,
+   "users": 0.0,
+   "z": NaN
+  },
+  {
+   "bin": 1,
+   "effect": 0.009205504266358487,
+   "feature": "f2",
+   "rest": 0.012054161242148219,
+   "users": 8387755.0,
+   "z": -9.507896553322018
+  },
+  {
+   "bin": 2,
+   "effect": 0.01992602251917,
+   "feature": "f2",
+   "rest": 0.007849111894015902,
+   "users": 2795917.0,
+   "z": 26.26984467080684
+  },
+  {
+   "bin": 3,
+   "effect": 0.0033179703466993775,
+   "feature": "f2",
+   "rest": 0.011927836089121437,
+   "users": 2795920.0,
+   "z": -35.93905321455148
+  },
+  {
+   "bin": 0,
+   "effect": 0.04368151005979613,
+   "feature": "f3",
+   "rest": 0.0018469592492747072,
+   "users": 2535597.0,
+   "z": 76.92960270799229
+  },
+  {
+   "bin": 1,
+   "effect": 0.0018469592492747072,
+   "feature": "f3",
+   "rest": 0.04368151005979613,
+   "users": 11443995.0,
+   "z": -76.92960270799229
+  },
+  {
+   "bin": 0,
+   "effect": NaN,
+   "feature": "f4",
+   "rest": 0.010342403129198284,
+   "users": 0.0,
+   "z": NaN
+  },
+  {
+   "bin": 1,
+   "effect": 0.010342403129198284,
+   "feature": "f4",
+   "rest": NaN,
+   "users": 13979592.0,
+   "z": NaN
+  },
+  {
+   "bin": 0,
+   "effect": 0.05888098609810358,
+   "feature": "f5",
+   "rest": 0.007121437003644489,
+   "users": 741443.0,
+   "z": 47.82247152636885
+  },
+  {
+   "bin": 1,
+   "effect": 0.007121437003644489,
+   "feature": "f5",
+   "rest": 0.05888098609810358,
+   "users": 13238149.0,
+   "z": -47.82247152636885
+  },
+  {
+   "bin": 0,
+   "effect": 0.03816634960792621,
+   "feature": "f6",
+   "rest": 0.002753141184426159,
+   "users": 2772946.0,
+   "z": 74.10341994738972
+  },
+  {
+   "bin": 1,
+   "effect": 0.006630071089839349,
+   "feature": "f6",
+   "rest": 0.01119950740070437,
+   "users": 2617327.0,
+   "z": -13.272680623142433
+  },
+  {
+   "bin": 2,
+   "effect": 0.002436420378316158,
+   "feature": "f6",
+   "rest": 0.012136166488521422,
+   "users": 2651292.0,
+   "z": -33.899882218219034
+  },
+  {
+   "bin": 3,
+   "effect": 0.001118873745738944,
+   "feature": "f6",
+   "rest": 0.0120156118481735,
+   "users": 2232482.0,
+   "z": -41.832747418946695
+  },
+  {
+   "bin": 4,
+   "effect": 0.0016956161454638602,
+   "feature": "f6",
+   "rest": 0.013664174517398701,
+   "users": 3705545.0,
+   "z": -33.46833545591551
+  },
+  {
+   "bin": 0,
+   "effect": NaN,
+   "feature": "f7",
+   "rest": 0.010342403129198284,
+   "users": 0.0,
+   "z": NaN
+  },
+  {
+   "bin": 1,
+   "effect": 0.010342403129198284,
+   "feature": "f7",
+   "rest": NaN,
+   "users": 13979592.0,
+   "z": NaN
+  },
+  {
+   "bin": 0,
+   "effect": 0.037232666326874664,
+   "feature": "f8",
+   "rest": 0.0019278871923507227,
+   "users": 2749311.0,
+   "z": 53.00901675765762
+  },
+  {
+   "bin": 1,
+   "effect": 0.006375484338665426,
+   "feature": "f8",
+   "rest": 0.011004042241391843,
+   "users": 2139420.0,
+   "z": -14.600061349589046
+  },
+  {
+   "bin": 2,
+   "effect": 0.002454410072091626,
+   "feature": "f8",
+   "rest": 0.011359740493420749,
+   "users": 1787432.0,
+   "z": -36.43791438352723
+  },
+  {
+   "bin": 3,
+   "effect": 0.0005380383088325524,
+   "feature": "f8",
+   "rest": 0.020564980296829377,
+   "users": 7303429.0,
+   "z": -66.65173891726698
+  },
+  {
+   "bin": 0,
+   "effect": NaN,
+   "feature": "f9",
+   "rest": 0.010342403129198284,
+   "users": 0.0,
+   "z": NaN
+  },
+  {
+   "bin": 1,
+   "effect": 0.002114827159966772,
+   "feature": "f9",
+   "rest": 0.036919355059536085,
+   "users": 11113335.0,
+   "z": -54.484923837433776
+  },
+  {
+   "bin": 2,
+   "effect": 0.036919355059536085,
+   "feature": "f9",
+   "rest": 0.002114827159966772,
+   "users": 2866257.0,
+   "z": 54.484923837433776
+  },
+  {
+   "bin": 0,
+   "effect": NaN,
+   "feature": "f10",
+   "rest": 0.010342403129198284,
+   "users": 0.0,
+   "z": NaN
+  },
+  {
+   "bin": 1,
+   "effect": 0.010342403129198284,
+   "feature": "f10",
+   "rest": NaN,
+   "users": 13979592.0,
+   "z": NaN
+  },
+  {
+   "bin": 0,
+   "effect": 0.04972931557261556,
+   "feature": "f11",
+   "rest": 0.009411197977951716,
+   "users": 202386.0,
+   "z": 12.846793626711696
+  },
+  {
+   "bin": 1,
+   "effect": 0.009411197977951716,
+   "feature": "f11",
+   "rest": 0.04972931557261556,
+   "users": 13777206.0,
+   "z": -12.846793626711696
+  }
+ ]
+}
